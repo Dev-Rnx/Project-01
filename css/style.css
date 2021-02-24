@@ -274,3 +274,19 @@ form input {
         padding: 30px;
     }
 }
+
+@media screen and (max-width: 500px){
+
+    .input-container input[type=text],input[type=email],input[type=tel] {
+        width: 100%;
+        height: 45px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+    }
+
+    .input-container input[type=submit] {
+        width: 80%;
+        height: 50px;
+    }
+
+}
