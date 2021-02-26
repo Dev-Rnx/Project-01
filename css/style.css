@@ -32,7 +32,7 @@ html, body {
 
 .header {
     width: 100%;
-    padding: 0 2%;
+    padding: 20px 2%;
     height: 90px;
     background-color: #212343;
 }
@@ -266,7 +266,7 @@ form input {
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 950px){
     .container-single {
         float: none;
         display: inline-block;
